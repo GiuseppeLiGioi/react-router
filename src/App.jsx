@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-    <Route></Route>
+    <Route path='/' Component={HomePage}></Route>
     </Routes>
 
     </BrowserRouter>
