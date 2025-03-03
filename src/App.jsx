@@ -21,7 +21,7 @@ function App() {
     <Route Component={DefaultLayout}>
     <Route path='/' Component={HomePage}></Route>
     <Route path='/chisiamo' Component={ChiSiamo}></Route>
-    <Route path='/posts' Component={PostsList}></Route>
+    <Route path='/posts/:id' Component={PostsList}></Route>
 
     </Route>
     </Routes>
