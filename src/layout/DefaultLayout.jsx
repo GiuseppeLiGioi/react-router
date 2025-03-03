@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
 
 
-const PostsList = () => {
+const DefaultLayout = () => {
     return(
         <>
         <Header />
@@ -12,4 +13,4 @@ const PostsList = () => {
     )
 }
 
-export default PostsList;
+export default DefaultLayout;
