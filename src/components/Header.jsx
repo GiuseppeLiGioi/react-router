@@ -7,27 +7,27 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">
+                    <li>
 
                     <NavLink to={'/'}>
                     Home
                     </NavLink>
 
-                    </a></li>
-                    <li><a href="#">
+                    </li>
+                    <li>
 
                     <NavLink to={'/chisiamo'}>
                     Chi Siamo
                     </NavLink>
 
-                    </a></li>
-                    <li><a href="#">
+                    </li>
+                    <li>
                         
                     <NavLink to={'/posts'}>
                     Posts
                     </NavLink>
                         
-                    </a></li>
+                   </li>
                 </ul>
             </nav>
         </header>
