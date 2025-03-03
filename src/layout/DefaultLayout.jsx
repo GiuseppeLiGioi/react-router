@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 const PostsList = () => {
     return(
         <>
-        <header>Header</header>
+        <Header />
         <Outlet />
         <footer>Footer</footer>
         </>

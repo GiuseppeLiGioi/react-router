@@ -3,6 +3,7 @@ import HomePage from './pages/homepage';
 import ChiSiamo from "./pages/ChiSiamo";
 import PostsList from "./pages/PostsList";
 import DefaultLayout from "./layout/DefaultLayout";
+import Header from "./components/Header";
 
 
 function App() {
